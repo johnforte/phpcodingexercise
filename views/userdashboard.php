@@ -3,7 +3,7 @@
 <head>
 </head>
 <body>
-<p>Currently Logged in as <?php echo $_SESSION['User']->getEmail(); ?></p>
+<p>Currently Logged in as <?php echo $_SESSION['User']->getUsername(); ?></p>
 <div>
 <h3>Upload Image</h3>
 <form action="upload" method="post" enctype="multipart/form-data">
